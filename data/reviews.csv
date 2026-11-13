@@ -1,0 +1,21 @@
+id,text,label
+1,Arrived a day early and the build quality is far better than I expected for the price.,positive
+2,Stopped working after two weeks and support never replied to my emails.,negative
+3,It does the job. Nothing remarkable either way.,neutral
+4,Excellent documentation and the sample code ran first time.,positive
+5,The app crashes every time I try to export data. Unusable for my purpose.,negative
+6,Packaging was fine and delivery was on time as promised.,neutral
+7,Battery life is outstanding - a full week on one charge.,positive
+8,Overpriced for what you get. I returned it.,negative
+9,Setup took a while but once configured it has been completely reliable.,positive
+10,The readings drift by several degrees so I cannot trust the data.,negative
+11,"Standard unit, works as described in the datasheet.",neutral
+12,Customer service replaced the faulty board without any argument. Impressed.,positive
+13,Pins were not soldered despite the listing saying they were.,negative
+14,Does what it says. I have no complaints and no praise.,neutral
+15,Easily the best value sensor I have bought this year.,positive
+16,Instructions are a machine translation and almost impossible to follow.,negative
+17,Works with the library mentioned in the description.,neutral
+18,Three of the five units were dead on arrival.,negative
+19,"Compact, accurate and the mounting holes line up properly.",positive
+20,Arrived in a plain box with no manual but the part itself is genuine.,neutral

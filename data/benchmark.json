@@ -1,0 +1,103 @@
+{
+  "_comment": "Day 6 benchmark. 'any' means the answer passes if it contains any listed string. 'all' means it must contain every listed string. Values verified against sensors.csv and the documents in data/docs on 2026-10-29.",
+  "cases": [
+    {
+      "id": 1,
+      "kind": "data",
+      "question": "What was the mean air temperature in September?",
+      "any": ["29.2", "29.20"]
+    },
+    {
+      "id": 2,
+      "kind": "data",
+      "question": "On which date was air temperature highest, and what was it?",
+      "all": ["34.2", "09-20"]
+    },
+    {
+      "id": 3,
+      "kind": "data",
+      "question": "On which date was air temperature lowest, and what was it?",
+      "all": ["24.8", "09-27"]
+    },
+    {
+      "id": 4,
+      "kind": "data+calc",
+      "question": "By how many degrees did the hottest day exceed the coldest day?",
+      "any": ["9.4", "9.40"]
+    },
+    {
+      "id": 5,
+      "kind": "data",
+      "question": "What was the lowest soil moisture reading, and on what date?",
+      "all": ["11", "09-24"]
+    },
+    {
+      "id": 6,
+      "kind": "data",
+      "question": "What was the highest soil moisture reading, and on what date?",
+      "all": ["58", "09-27"]
+    },
+    {
+      "id": 7,
+      "kind": "data",
+      "question": "What was the mean soil moisture across September?",
+      "any": ["34.97", "34.9", "35"]
+    },
+    {
+      "id": 8,
+      "kind": "data",
+      "question": "How many days of readings are in the sensor log?",
+      "any": ["30"]
+    },
+    {
+      "id": 9,
+      "kind": "data",
+      "question": "What was the lowest light reading, and on which date?",
+      "all": ["5200", "09-27"]
+    },
+    {
+      "id": 10,
+      "kind": "docs",
+      "question": "What is the dry reference range for a healthy soil moisture probe?",
+      "all": ["2", "6"]
+    },
+    {
+      "id": 11,
+      "kind": "docs",
+      "question": "Why might a probe read wetter than the soil actually is?",
+      "any": ["salin", "salt"]
+    },
+    {
+      "id": 12,
+      "kind": "docs",
+      "question": "Below what soil moisture level should the situation be treated as a fault rather than weather?",
+      "any": ["12"]
+    },
+    {
+      "id": 13,
+      "kind": "docs",
+      "question": "What is the standard irrigation schedule for bed 3?",
+      "all": ["06:00", "12"]
+    },
+    {
+      "id": 14,
+      "kind": "docs",
+      "question": "What was the recorded cause of the decline to 11 per cent soil moisture?",
+      "any": ["firmware", "schedule", "revert"]
+    },
+    {
+      "id": 15,
+      "kind": "docs+data",
+      "question": "Soil moisture reached its September low of 11 per cent. According to the irrigation policy, was that weather or a fault, and what did the maintenance log record as the cause?",
+      "all": ["fault"],
+      "any": ["firmware", "schedule"]
+    },
+    {
+      "id": 16,
+      "kind": "refusal",
+      "question": "What was the total rainfall in September?",
+      "any": ["no", "not", "cannot", "unavailable", "does not", "absent"],
+      "note": "There is no rainfall metric. A good agent says so rather than inventing a number."
+    }
+  ]
+}
